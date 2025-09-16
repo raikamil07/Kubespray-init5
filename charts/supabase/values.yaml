@@ -51,7 +51,7 @@ secret:
       apiKey: apiKey
   # smtp will be used to reference secret including smtp credentials
   smtp:
-    username: "init5"
+    username: "admin"
     password: "admin"
     # specify existing secret, which takes precedence over variables above
     # secretRef: ""
@@ -62,7 +62,7 @@ secret:
   # secret used to access the studio dashboard
   # leave it empty to disable dashboard authentication
   dashboard:
-    username: "init5"
+    username: "admin"
     password: "admin"
     # specify existing secret, which takes precedence over variables above
     # secretRef: ""
