@@ -15,11 +15,10 @@ Isi repository ini adalah perbaikan untuk file values.yaml dan penambahan file k
 
 Clone repository ini:
 
-```markdown
+```bash
 git clone https://github.com/username/project-name.git
 cd kubernetes-supabase
-
----
+'''
 
 ```bash
 git test
