@@ -20,17 +20,18 @@ cd Kubespray-supabase-init5
 
 Next, navigate into the charts/supabase directory:
 
+```plaintext
 project-name/
 ├── .github/
-├── build/       
+├── build/
 ├── charts/
-    ├── supabase/
-    └── .helmignore
+├── supabase/
+├── .helmignore
 ├── LICENSE
 ├── README.md
 ├── build.sh
 └── index.yaml
-
+```
 Install Helm first by following the official documentation: https://helm.sh/docs/intro/install/
 
 After that install supabae using helm
