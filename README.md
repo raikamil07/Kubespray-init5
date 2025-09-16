@@ -1,15 +1,13 @@
-# 📘 Project Name
+# 📘 FIXING KUBENERTES-SUPABASE
 
-Deskripsi singkat tentang project ini.  
-Jelaskan tujuan, manfaat, atau masalah yang diselesaikan oleh project ini.
+Isi repository ini adalah perbaikan untuk file values.yaml dan penambahan file konfigurasi local-path-storage yang berguna sebagai storage class.
 
 ---
 
 ## ✨ Fitur
 
-- ✅ Fitur 1: Deskripsi singkat
-- ✅ Fitur 2: Deskripsi singkat
-- ❌ Fitur yang belum tersedia (opsional)
+- ✅ Change 1: Perbaikan file values.yaml yang mengalami errro ketika deploy supabase
+- ✅ Change 2: Penggunaan local-path-storage sebagai storage class untuk supabase
 
 ---
 
@@ -19,4 +17,9 @@ Clone repository ini:
 
 ```bash
 git clone https://github.com/username/project-name.git
-cd project-name
+cd kubernetes-supabase
+
+---
+
+```bash
+git test
